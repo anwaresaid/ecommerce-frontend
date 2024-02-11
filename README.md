@@ -7,11 +7,11 @@ the data is saved in a local folder, there is no backend connection.
 
 ### `how to use`
 
-you can use side filers, which filter data according to static filters that I implemented.
+- you can use side filers, which filter data according to static filters that I implemented.
 
-also there is a search bar so you can search a product by name.
+- also there is a search bar so you can search a product by name.
 
-finally, you can use the buttons to search by brand name.
+- finally, you can use the buttons to search by brand name.
 
 ## Available Scripts
 
