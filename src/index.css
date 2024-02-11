@@ -5,7 +5,7 @@
   font-family: sans-serif;
 }
 body {
-  background-color: white;
+  background-color: #f7f6f6;
 }
 
 a {
@@ -24,11 +24,12 @@ li {
   border: none;
   border: 0.6px solid #ccc;
   border-radius: 5px;
-  color: #323232;
-  background-color: grey;
+  color: rgb(76, 51, 152);
+  background-color: rgb(255, 211, 0);
   cursor: pointer;
 }
 
 .btns:hover {
-  background-color: lightblue;
+  background-color: rgb(76, 51, 152);
+  color: rgb(255, 211, 0);
 }

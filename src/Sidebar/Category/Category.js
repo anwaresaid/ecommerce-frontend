@@ -9,7 +9,11 @@ function Category({ handleChange }) {
       <div>
         <label className="sidebar-label-container">
           <input onClick={handleChange} type="radio" value="" name="test" />
-          <span className="checkmark"></span>All
+          <span
+            className="checkmark"
+            style={{ backgroundColor: "rgb(255,211,0)" }}
+          ></span>
+          All
         </label>
         <Input
           handleChange={handleChange}
@@ -17,6 +21,7 @@ function Category({ handleChange }) {
           value="sneakers"
           title="Sneakers"
           name="test"
+          color="rgb(255, 211, 0)"
         />
         <Input
           handleChange={handleChange}
@@ -24,6 +29,7 @@ function Category({ handleChange }) {
           value="flats"
           title="Flats"
           name="test"
+          color="rgb(255, 211, 0)"
         />
         <Input
           handleChange={handleChange}
@@ -31,6 +37,7 @@ function Category({ handleChange }) {
           value="sandals"
           title="Sandls"
           name="test"
+          color="rgb(255, 211, 0)"
         />
         <Input
           handleChange={handleChange}
@@ -38,6 +45,7 @@ function Category({ handleChange }) {
           value="heels"
           title="Heels"
           name="test"
+          color="rgb(255, 211, 0)"
         />
       </div>
     </div>

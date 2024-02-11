@@ -2,11 +2,11 @@ nav {
   display: flex;
   border-bottom: 2px solid #f3f3f3;
   justify-content: space-around;
+  background-color: rgb(76, 51, 152);
   align-items: center;
   padding: 20px;
   z-index: 999;
   margin-left: 2rem;
-  background-color: #24435e;
 }
 
 input {
@@ -24,5 +24,5 @@ input {
   width: 1.5rem;
   height: 1.5rem;
   margin-left: 2rem;
-  color: white;
+  color: rgb(243, 240, 254);
 }

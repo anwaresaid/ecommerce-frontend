@@ -9,18 +9,22 @@
 .card {
   margin: 20px;
   border: 2px solid #ededed;
-  background-color: #9fc9ed;
+  background-color: rgb(255, 211, 0);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 20px;
+  border-radius: 14px;
+  color: rgb(76, 51, 152);
   cursor: pointer;
 }
 
 .card:hover {
-  background-color: #dcecfa;
+  background-color: rgb(76, 51, 152);
+  color: rgb(255, 211, 0);
 }
 
 .card-img {
   width: 13rem;
+  border-radius: 14px;
   margin-bottom: 1rem;
 }
 
@@ -46,8 +50,4 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.bag-icon {
-  color: #535353;
 }
