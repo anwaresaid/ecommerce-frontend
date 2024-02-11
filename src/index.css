@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+body {
+  background-color: white;
+}
 
 a {
   text-decoration: none;
@@ -22,5 +25,10 @@ li {
   border: 0.6px solid #ccc;
   border-radius: 5px;
   color: #323232;
+  background-color: grey;
   cursor: pointer;
+}
+
+.btns:hover {
+  background-color: lightblue;
 }
