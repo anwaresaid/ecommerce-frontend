@@ -2,7 +2,12 @@ import React from "react";
 
 function Buttons({ onClickHandler, value, title }) {
   return (
-    <button className="btns" onClick={onClickHandler} value={value}>
+    <button
+      className="btns"
+      name="company"
+      onClick={onClickHandler}
+      value={value}
+    >
       {title}
     </button>
   );

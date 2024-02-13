@@ -1,6 +1,6 @@
 import React from "react";
 import "./Colors.css";
-import Input from "../../components/Input";
+import Input from "../../components/Input.tsx";
 
 function Colors({ handleChange }) {
   return (

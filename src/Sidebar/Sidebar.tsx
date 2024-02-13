@@ -1,8 +1,8 @@
 import React from "react";
 import "./Sidebar.css";
-import Category from "./Category/Category";
-import Price from "./Price/Price";
-import Colors from "./Colors/Colors";
+import Category from "./Category/Category.tsx";
+import Price from "./Price/Price.tsx";
+import Colors from "./Colors/Colors.tsx";
 
 function Sidebar({ handleChange }) {
   return (

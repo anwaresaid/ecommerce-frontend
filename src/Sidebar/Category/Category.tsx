@@ -1,6 +1,6 @@
 import React from "react";
 import "./Category.css";
-import Input from "../../components/Input";
+import Input from "../../components/Input.tsx";
 
 function Category({ handleChange }) {
   return (
@@ -8,7 +8,7 @@ function Category({ handleChange }) {
       <h2 className="sidebar-title">Category</h2>
       <div>
         <label className="sidebar-label-container">
-          <input onClick={handleChange} type="radio" value="" name="test" />
+          <input onClick={handleChange} type="radio" value="" name="category" />
           <span
             className="checkmark"
             style={{ backgroundColor: "rgb(255,211,0)" }}
@@ -20,7 +20,7 @@ function Category({ handleChange }) {
           type="radio"
           value="sneakers"
           title="Sneakers"
-          name="test"
+          name="category"
           color="rgb(255, 211, 0)"
         />
         <Input
@@ -28,7 +28,7 @@ function Category({ handleChange }) {
           type="radio"
           value="flats"
           title="Flats"
-          name="test"
+          name="category"
           color="rgb(255, 211, 0)"
         />
         <Input
@@ -36,7 +36,7 @@ function Category({ handleChange }) {
           type="radio"
           value="sandals"
           title="Sandls"
-          name="test"
+          name="category"
           color="rgb(255, 211, 0)"
         />
         <Input
@@ -44,7 +44,7 @@ function Category({ handleChange }) {
           type="radio"
           value="heels"
           title="Heels"
-          name="test"
+          name="category"
           color="rgb(255, 211, 0)"
         />
       </div>
