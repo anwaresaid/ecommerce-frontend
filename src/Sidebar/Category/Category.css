@@ -67,3 +67,18 @@
   margin: top 3rem;
   border-color: #f7f7f7;
 }
+
+@media (max-width: 768px) {
+  .category-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .sidebar-title {
+    margin-right: 20px;
+  }
+
+  .category-input-container {
+    display: flex;
+    flex-direction: row;
+  }
+}

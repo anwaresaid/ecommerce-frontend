@@ -4,9 +4,9 @@ import Input from "../../components/Input.tsx";
 
 function Category({ handleChange }) {
   return (
-    <div>
+    <div className="category-container">
       <h2 className="sidebar-title">Category</h2>
-      <div>
+      <div className="category-input-container">
         <label className="sidebar-label-container">
           <input onClick={handleChange} type="radio" value="" name="category" />
           <span

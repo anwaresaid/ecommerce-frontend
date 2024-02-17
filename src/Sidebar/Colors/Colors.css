@@ -5,3 +5,18 @@
 .all {
   background: linear-gradient(blue, crimson);
 }
+
+@media (max-width: 768px) {
+  .color-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .color-input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .color-title {
+    margin-top: 1rem;
+  }
+}

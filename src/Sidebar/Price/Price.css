@@ -2,6 +2,14 @@
   margin-top: 20px;
 }
 
-.ml {
-  margin-left: 20px;
+@media (max-width: 768px) {
+  .price-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .price-input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 }
